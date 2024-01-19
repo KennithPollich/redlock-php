@@ -1,0 +1,31 @@
+{
+    "name": "ronnylt/redlock-php",
+    "description": "Redis distributed locks in PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronny Lopez",
+            "email": "ronny@tangotree.io"
+        }
+    ],
+    "require": {
+        "php": "~5.4",
+        "ext-redis": "~2.2.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "RedLock\\": "src/"
+        }
+    },
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/ronnylt"
+        },
+        {
+            "url": "https://opencollective.com/redlock-php",
+            "type": "open_collective"
+        }
+    ]
+}
