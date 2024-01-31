@@ -1,4 +1,4 @@
-# RedLock – Redis distributed locks in PHP
+ *RedLock – Redis distributed locks in PHP
 
 Based on [Redlock-rb](https://github.com/antirez/redlock-rb) by [Salvatore Sanfilippo](https://github.com/antirez)
 
@@ -41,7 +41,7 @@ Array
 )
 ```
 
-* validity, an integer representing the number of milliseconds the lock will be valid.
+  validity, an integer representing the number of milliseconds the lock will be valid.
 * resource, the name of the locked resource as specified by the user.
 * token, a random token value which is used to safe reclaim the lock.
 
@@ -60,3 +60,4 @@ the specified `$retryDelay` value.
 **Disclaimer**: As stated in the original antirez's version, this code implements an algorithm
 which is currently a proposal, it was not formally analyzed. Make sure to understand how it works
 before using it in your production environments.
+ 
